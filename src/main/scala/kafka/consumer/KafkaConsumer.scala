@@ -51,6 +51,8 @@ class KafkaConsumerGroup(
 
 
 
+  def close():Unit = consumer.close()
+  
   def subscribeAndPoll() {
          shutdownListener.start()
 

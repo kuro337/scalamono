@@ -1,3 +1,3 @@
 package lang.functional
 
-object Map {}
+object MapUsage {}
